@@ -1,0 +1,23 @@
+digraph Music_Recommendation_System_Architecture {
+	rankdir=LR size="8,5"
+	A [label="Input Dataset
+(Music Metadata & Audio Features)"]
+	B [label="Data Preprocessing
+(Cleaning, Feature Selection, Normalization)"]
+	C [label="Clustering Model
+(KMeans Clustering, Cluster Assignment)"]
+	D [label="Dimensionality Reduction
+(PCA, t-SNE)"]
+	E [label="Recommendation System
+(Cluster Matching, Recommendation Output)"]
+	F [label="Web Application
+(Flask Backend, HTML Frontend)"]
+	G [label="Output Presentation
+(Visualization, Recommendations)"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	F -> G
+}

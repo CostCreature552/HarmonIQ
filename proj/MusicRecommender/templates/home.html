@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Recommendation System</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card-body {
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .btn-primary {
+            display: block;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Music Recommendation System</h1>
+        <form method="POST" class="mb-4">
+            <div class="form-group">
+                <label for="song_name">Song Name:</label>
+                <input type="text" id="song_name" name="song_name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="song_year">Year:</label>
+                <input type="number" id="song_year" name="song_year" min="1900" max="2024" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Get Recommendations</button>
+        </form>
+
+        {% if recommendations %}
+            <h2 class="text-center">Recommended Songs:</h2>
+            <div class="row">
+                {% for song in recommendations %}
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ song['name'] }}</h5>
+                            <p class="card-text"><strong>Artist(s):</strong> {{ song['artists'] }}</p>
+                            <p class="card-text"><strong>Year:</strong> {{ song['year'] }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        {% elif request.method == 'POST' %}
+            <p class="text-center text-danger">No recommendations found. Please try different inputs.</p>
+        {% endif %}
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

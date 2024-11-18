@@ -1,0 +1,77 @@
+Recommendations:
++------------------------------------------------------------------------------+------+----------------------------------------+
+|                                     Name                                     | Year |                Artists                 |
++------------------------------------------------------------------------------+------+----------------------------------------+
+|                                     Boys                                     | 2017 |               Charli XCX               |
+|                          Falling (blackbear Remix)                           | 2018 |        Trevor Daniel, blackbear        |
+|                                     Talk                                     | 2019 |           Khalid, Disclosure           |
+|                            El Rey De Mil Coronas                             | 2004 |               Lalo Mora                |
+|                              Young Dumb & Broke                              | 2017 |                 Khalid                 |
+|                                   Bad Idea                                   | 2018 |         pxzvc, Shiloh Dynasty          |
+|                                   D'Evils                                    | 2018 |                  SiR                   |
+|                             Confessions Part II                              | 2004 |                 Usher                  |
+|                                Mejor Me Alejo                                | 2018 |      Banda MS de Sergio Lizárraga      |
+|                                  Cool Again                                  | 2018 |                 Shoffy                 |
+|                                  Take A Bow                                  | 2008 |                Rihanna                 |
+|                                    Panama                                    | 2018 |               Quinn XCII               |
+|                               Change the World                               | 1999 |              Eric Clapton              |
+|                                   Breathe                                    | 2014 |             Years & Years              |
+|                       Knee Deep (feat. Jimmy Buffett)                        | 2010 |     Zac Brown Band, Jimmy Buffett      |
+|                                    Heaven                                    | 2017 |               Kane Brown               |
+|                     Bohemian Rhapsody - Remastered 2011                      | 1975 |                 Queen                  |
+|                          The River (Album Version)                           | 1972 |             Dan Fogelberg              |
+|      Rooster - Live at the Majestic Theatre, Brooklyn, NY - April 1996       | 1996 |            Alice In Chains             |
+|                               Queen Of Spades                                | 1978 |                  Styx                  |
+| Gethsemane (I Only Wanted To Say) - From "Jesus Christ Superstar" Soundtrack | 1973 |               Ted Neeley               |
+|                               Love That Burns                                | 1968 |             Fleetwood Mac              |
+|                               I'm in Your Care                               | 1989 |         The Canton Spirituals          |
+|                                 Castle Walls                                 | 1977 |                  Styx                  |
+|                        Hand of Doom - 2012 - Remaster                        | 1970 |             Black Sabbath              |
+|                                  On the Low                                  | 2019 |               Burna Boy                |
+|                                  El Efecto                                   | 2019 |    Rauw Alejandro, Chencho Corleone    |
+|                                Because Of You                                | 2007 |                 Ne-Yo                  |
+|                             Nunca Es Suficiente                              | 2018 | Los Ángeles Azules, Natalia Lafourcade |
+|                                Baby I'm Yours                                | 2012 |            Breakbot, Irfane            |
+|                                 Métele Sazón                                 | 2003 |   Luny Tunes, Noriega, Tego Calderón   |
+|                                   How Long                                   | 2018 |              Charlie Puth              |
+|                                   El Buho                                    | 2019 |            Luis R Conriquez            |
+|                                    Citgo                                     | 2012 |               Chief Keef               |
+|                                  deadroses                                   | 2015 |               blackbear                |
+|                              Pink Skies (Demo)                               | 2018 |           Wiley from Atlanta           |
+|                               The Demo (Story)                               | 2007 |            Bs (A. Whiteman)            |
+|                             Grass Ain't Greener                              | 2017 |              Chris Brown               |
+|                                     911                                      | 2018 |                 Ellise                 |
+|                                   Phoenix                                    | 2013 |               A$AP Rocky               |
+|                                 Rose Golden                                  | 2016 |            Kid Cudi, WILLOW            |
+|                                 Kickin' Back                                 | 2016 |                 Mila J                 |
+|                                 Comes & Goes                                 | 2008 |            Sweatshop Union             |
+|                               One Man's Dream                                | 1986 |                 Yanni                  |
+|                               Highschool Lover                               | 2000 |                  Air                   |
+|                                The Piano Duet                                | 2005 |              Danny Elfman              |
+|                               Cursum Perficio                                | 1988 |                  Enya                  |
+|                               An Evening Walk                                | 2009 |             Bernward Koch              |
+|                                   Norrsken                                   | 2016 |               Karin Borg               |
+|                             To Be Alone With You                             | 2004 |             Sufjan Stevens             |
+|                            Quidditch, Third Year                             | 2004 |             John Williams              |
+|              Winter Weather / I've Got My Love to Keep Me Warm               | 2015 |            Mason Embry Trio            |
+|                                   Streams                                    | 2016 |            Johannes Bornlöf            |
++------------------------------------------------------------------------------+------+----------------------------------------+
+
+Model Performance Metrics:
++-----------+--------------------+
+|   Metric  |       Value        |
++-----------+--------------------+
+|  Accuracy |        0.9         |
+| Precision | 0.8333333333333334 |
+|   Recall  |        1.0         |
++-----------+--------------------+
+
+Confusion Matrix:
++----------+-------------+-------------+
+|          | Predicted 0 | Predicted 1 |
++----------+-------------+-------------+
+| Actual 0 |      4      |      1      |
+| Actual 1 |      0      |      5      |
++----------+-------------+-------------+
+
+Number of Errors: 1
