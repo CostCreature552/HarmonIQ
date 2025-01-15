@@ -1,4 +1,4 @@
-# 🎵 Music Recommendation System
+# 🎵 HarmonIQ
 
 This project is a **Music Recommendation System** built using Python, Flask, and machine learning techniques. It provides personalized music recommendations based on various audio features extracted from a dataset.
 
